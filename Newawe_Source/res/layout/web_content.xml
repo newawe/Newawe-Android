@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.Newawe.ui.views.WebContent android:id="@id/webViewPane" android:visibility="0" android:layout_width="-1" android:layout_height="-1">
+    <com.Newawe.ui.views.BrowserWebView android:id="@id/webView" android:visibility="0" android:layout_width="-1" android:layout_height="-1" />
+    <RelativeLayout android:id="@id/progressbarPanel" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_alignParentTop="true">
+        <ProgressBar android:id="@id/progressbar" android:paddingTop="0dp" android:layout_width="-1" android:layout_height="6dp" android:layout_marginTop="-2dp" style="?unknown_attr_ref: 1010078" />
+        <TextView android:textSize="18sp" android:textColor="#ffffff" android:gravity="11" android:id="@id/loadingCurtainDefault" android:background="#ee000000" android:visibility="2" android:clickable="true" android:layout_width="-1" android:layout_height="-1" android:text="@string/loadingPaneTitle" android:editable="false" android:layout_below="@id/progressbar" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/errorDialogPanel" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:color="#55000000" />
+</com.Newawe.ui.views.WebContent>

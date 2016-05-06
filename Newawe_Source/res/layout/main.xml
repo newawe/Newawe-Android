@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout ads:gravity="1" ads:orientation="1" ads:id="@id/drawer_layout" ads:layout_width="-1" ads:layout_height="-1">
+    <FrameLayout ads:gravity="1" ads:orientation="1" ads:layout_width="-1" ads:layout_height="-1"
+        <FrameLayout ads:layout_width="-1" ads:layout_height="-1">
+            <LinearLayout ads:gravity="1" ads:orientation="1" ads:id="@id/contentFrame" ads:visibility="2" ads:layout_width="-1" ads:layout_height="-1" ads:layout_weight="1.0">
+                <include layout="@layout/bottom_banner" />
+            </LinearLayout>
+            <ImageView ads:layout_gravity="13" ads:id="@id/slider_handle" ads:background="@drawable/slider_handle_background" ads:paddingLeft="30dp" ads:paddingRight="0dp" ads:visibility="2" ads:layout_width="60dp" ads:layout_height="60dp" ads:layout_marginLeft="-40dp" ads:src="@drawable/ic_keyboard_arrow_right_white_24dp" />
+        </FrameLayout>
+        <FrameLayout ads:orientation="1" ads:id="@id/customFrame" ads:visibility="2" ads:layout_width="-1" ads:layout_height="-1" />
+        <FrameLayout ads:orientation="1" ads:id="@id/fullScreenBannerContainer" ads:visibility="2" ads:layout_width="-1" ads:layout_height="-1">
+            <com.Newawe.ui.views.BrowserWebView ads:id="@id/startupScreenWebView" ads:layout_width="-1" ads:layout_height="-1" />
+        </FrameLayout>
+        <RelativeLayout ads:id="@id/splashScreenView" ads:background="@color/splashScreenBackground" ads:visibility="2" ads:layout_width="-1" ads:layout_height="-1">
+            <ImageView ads:id="@id/splashScreenImage" ads:layout_width="-2" ads:layout_height="-2" ads:layout_centerInParent="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <ListView ads:layout_gravity="800003" ads:id="@id/left_drawer" ads:background="#fff" ads:layout_width="300dp" ads:layout_height="-1" ads:stackFromBottom="true" ads:divider="@drawable/custom_divider" ads:choiceMode="1" />
+</android.support.v4.widget.DrawerLayout>

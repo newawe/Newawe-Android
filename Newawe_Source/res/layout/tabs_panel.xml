@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <com.astuetz.PagerSlidingTabStrip android:textColorPrimary="#fff" android:id="@id/tabtags_panel" android:background="@color/colorPrimary" android:layout_width="-1" android:layout_height="?unknown_attr_ref: 7f01001a" />
+    <com.Newawe.controllers.ContentSwipeAwareViewPager android:gravity="33" android:id="@id/tabcontents_panel" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.0" />
+</merge>

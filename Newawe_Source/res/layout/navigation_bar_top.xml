@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <android.support.v7.widget.Toolbar app:id="@id/topNavigationRow" app:background="?unknown_attr_ref: 7f010056" app:paddingLeft="0dp" app:paddingRight="0dp" app:layout_width="-1" app:layout_height="50dp" app:layout_marginRight="0dp" app:minHeight="50dp" app:contentInsetStart="0dp" app:contentInsetLeft="0dp" app:popupTheme="@style/ActionBarPopupThemeOverlay" app:theme="@style/ActionBarThemeOverlay">
+        <RelativeLayout app:gravity="10" app:orientation="0" app:id="@id/search_container" app:padding="3dp" app:layout_width="-1" app:layout_height="-1">
+            <LinearLayout app:gravity="10" app:orientation="0" app:id="@id/search_background" app:layout_width="-1" app:layout_height="-1" app:layout_marginRight="60dp">
+                <ImageView app:layout_gravity="11" app:id="@id/search_icon" app:paddingLeft="8dp" app:paddingRight="8dp" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/ic_search_white_24dp" />
+                <RelativeLayout app:layout_width="0dp" app:layout_height="-2" app:layout_weight="1.0">
+                    <AutoCompleteTextView app:textColor="#ffffff" app:textColorHint="#b3ffffff" app:gravity="10" app:id="@id/urlTextbox" app:background="0x106000d" app:paddingLeft="0dp" app:paddingRight="25dp" app:layout_width="-1" app:layout_height="-2" app:hint="@string/urlBoxHint" app:maxLines="1" app:singleLine="true" app:selectAllOnFocus="true" app:inputType="11" app:imeOptions="3" />
+                    <ImageButton app:id="@id/clearText" app:background="0x106000d" app:padding="3dp" app:visibility="2" app:layout_width="30dp" app:layout_height="-2" app:layout_marginRight="0dp" app:src="@drawable/ic_cancel_16" app:scaleType="3" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout app:gravity="10" app:orientation="0" app:paddingRight="10dp" app:layout_width="-2" app:layout_height="-1" app:layout_alignParentRight="true" app:layout_centerVertical="true">
+                <ImageButton app:layout_gravity="11" app:id="@id/stopRefreshButton" app:background="0x106000d" app:paddingLeft="8dp" app:paddingRight="4dp" app:layout_width="-2" app:layout_height="-1" app:src="@drawable/ic_refresh_white_24dp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+    <ScrollView app:id="@id/suggestionsScroll" app:visibility="2" app:layout_width="-1" app:layout_height="-2">
+        <LinearLayout app:orientation="1" app:id="@id/suggestions" app:background="@drawable/suggestions_background" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="0dp" app:layout_marginTop="50dp" app:layout_marginRight="0dp" />
+    </ScrollView>
+    <ScrollView app:id="@id/menuOverlayScroll" app:visibility="2" app:layout_width="-2" app:layout_height="-1">
+        <RelativeLayout app:layout_gravity="30" app:id="@id/menuOverlay" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="47dp">
+            <LinearLayout app:orientation="1" app:id="@id/additionalMenu" app:background="@drawable/url_bar_menu_shadow" app:visibility="0" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="0dp" app:layout_marginTop="0dp" app:layout_marginRight="-10dp" app:layout_alignParentTop="true" app:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </ScrollView>
+</merge>

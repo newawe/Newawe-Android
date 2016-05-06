@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_mode_done">Klart</string>
+    <string name="abc_action_bar_home_description">Visa startsidan</string>
+    <string name="abc_action_bar_up_description">Navigera uppåt</string>
+    <string name="abc_action_menu_overflow_description">Fler alternativ</string>
+    <string name="abc_toolbar_collapse_description">Komprimera</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_searchview_description_search">Sök</string>
+    <string name="abc_search_hint">Sök …</string>
+    <string name="abc_searchview_description_query">Sökfråga</string>
+    <string name="abc_searchview_description_clear">Ta bort frågan</string>
+    <string name="abc_searchview_description_submit">Skicka fråga</string>
+    <string name="abc_searchview_description_voice">Röstsökning</string>
+    <string name="abc_activitychooserview_choose_application">Välj en app</string>
+    <string name="abc_activity_chooser_view_see_all">Visa alla</string>
+    <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
+    <string name="abc_shareactionprovider_share_with">Dela med</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="abc_capital_on">PÅ</string>
+    <string name="abc_capital_off">AV</string>
+    <string name="common_google_play_services_unknown_issue">%1$s har problem med Google Play-tjänster. Om problemet kvarstår kontaktar du utvecklaren.</string>
+    <string name="menuExitTitle">Utgång</string>
+    <string name="menuRefreshTitle">Refresh</string>
+    <string name="menuAboutTitle">Om</string>
+    <string name="menuShareTitle">Dela</string>
+    <string name="menuRateTitle">Rate</string>
+    <string name="progressBarMessage">Loading content…</string>
+    <string name="noInternetConnectionMessage">Internet-anslutning är tillgänglig</string>
+    <string name="shareContentSubject">Get this cool Android App</string>
+    <string name="loadingVideo">Loading video</string>
+    <string name="noContentInfoMessage">"Something goes wrong :(
+No content available"</string>
+    <string name="loadingPaneTitle">Loading…</string>
+    <string name="startupScreenTitle">Loading…</string>
+    <string name="pinToHomeScreenButtonTitle">Pin to desktop</string>
+    <string name="setNewUserAgent">Save and Apply</string>
+    <string name="backButtonTitle">Back</string>
+    <string name="forwardButtonTitle">Forward</string>
+    <string name="refreshgButtonTitle">Refresh</string>
+    <string name="homeButtonTitle">Home</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="username">Name</string>
+    <string name="password">Password</string>
+</resources>

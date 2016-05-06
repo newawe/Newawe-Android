@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_mode_done">पूर्ण</string>
+    <string name="abc_action_bar_home_description">मुख्यपृष्ठ पर नेविगेट करें</string>
+    <string name="abc_action_bar_up_description">ऊपर नेविगेट करें</string>
+    <string name="abc_action_menu_overflow_description">अधिक विकल्प</string>
+    <string name="abc_toolbar_collapse_description">संक्षिप्त करें</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_searchview_description_search">खोजें</string>
+    <string name="abc_search_hint">खोजा जा रहा है…</string>
+    <string name="abc_searchview_description_query">खोज क्वेरी</string>
+    <string name="abc_searchview_description_clear">क्‍वेरी साफ़ करें</string>
+    <string name="abc_searchview_description_submit">क्वेरी सबमिट करें</string>
+    <string name="abc_searchview_description_voice">ध्वनि खोज</string>
+    <string name="abc_activitychooserview_choose_application">कोई एप्‍लिकेशन चुनें</string>
+    <string name="abc_activity_chooser_view_see_all">सभी देखें</string>
+    <string name="abc_shareactionprovider_share_with_application">%s के साथ साझा करें</string>
+    <string name="abc_shareactionprovider_share_with">इसके द्वारा साझा करें</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="abc_capital_on">चालू</string>
+    <string name="abc_capital_off">बंद</string>
+    <string name="common_google_play_services_unknown_issue">%1$s को Google Play सेवाओं के साथ समस्या है. यदि समस्या बनी रहती है, तो कृपया सहायता के लिए डेवलपर से संपर्क करें.</string>
+    <string name="menuExitTitle">बाहर जाना</string>
+    <string name="menuRefreshTitle">ताज़ा करना</string>
+    <string name="menuAboutTitle">बारे में</string>
+    <string name="menuShareTitle">शेयर</string>
+    <string name="menuRateTitle">=मूल्यांकन करें.</string>
+    <string name="progressBarMessage">सामग्री लोड कर रहे हैं.</string>
+    <string name="noInternetConnectionMessage">इंटरनेट कनेक्शन उपलब्ध नहीं है.</string>
+    <string name="shareContentSubject">इस आकर्षक एंड्रॉयड एप्लिकेशन प्राप्त करें.</string>
+    <string name="shareSiteSubject">इस साइट का आनंद लें.</string>
+    <string name="loadingVideo">वीडियो लोड कर रहे हैं.</string>
+    <string name="noContentInfoMessage">कुछ गड़बड़ है, सामग्री उपलब्ध नहीं है.</string>
+    <string name="loadingPaneTitle">लोड कर रहे हैं.</string>
+    <string name="startupScreenTitle">लोड कर रहे हैं.</string>
+    <string name="pinToHomeScreenButtonTitle">डेस्कटॉप के लिए यहाँ क्लिक करें.</string>
+    <string name="setNewUserAgent">सुरक्षित और लागू करें.</string>
+    <string name="urlBoxHint">खोज या URLभरें.</string>
+    <string name="backButtonTitle">वापस</string>
+    <string name="forwardButtonTitle">आगेे</string>
+    <string name="refreshgButtonTitle">ताज़ा करना</string>
+    <string name="homeButtonTitle">प्रारंभ</string>
+    <string name="appExitCaption">क्या तुम सच में आवेदन बाहर निकलना चाहते हैं?</string>
+    <string name="yes">हां</string>
+    <string name="no">नहीं</string>
+    <string name="build">बनाना</string>
+    <string name="sign_in_to">प्रवेश करें…</string>
+    <string name="username">नाम</string>
+    <string name="password">पासवर्ड</string>
+    <string name="requestDesktopVersion">डेस्कटॉप पेज के लिए अनुरोध करें.</string>
+    <string name="AddToStartPage">प्रथम पेज के लिए इस जोड़ें.</string>
+    <string name="new_start_page_item_added">कुछ नए तत्व हाल ही में प्रारंभ पृष्ठ को जोड़ा गया हैं.</string>
+    <string name="dialog_select_action">चयन करें.</string>
+    <string name="open_file">फ़ाइल खोलें.</string>
+    <string name="save_file">फ़ाइल को सुरक्षित करें.</string>
+    <string name="cancel">रद्द करें.</string>
+    <string name="startupConfirmationDialogMessage">विज्ञापन के लिए स्क्रीन के ऊपर या नीचे प्रदर्शित किया जा सकता है. एक पूर्ण स्क्रीन विज्ञापन अनुप्रयोग शुरू या बंद करने पर या कुछ उपयोगकर्ता कार्रवाई के बाद प्रदर्शित किया जा सकता है. आप विज्ञापन पर क्लिक करते हैं, तो आप एक तीसरी पार्टी वेब पेज पर पुनः निर्देशित किया जाएगा.</string>
+    <string name="startupConfirmationDialogTitle">विज्ञापन शर्तें</string>
+    <string name="startupConfirmationDialogAcceptButtonCaption">स्वीकारें</string>
+    <string name="startupConfirmationDialogRefuseButtonCaption">इनकार</string>
+    <string name="aboutDescriptionWithPubName">एप्लिकेशन APP_VERSION PUB_NAME द्वारा &lt;a href=\"APPSGEYSER_URL\">AppsGeyser.com&lt;/a> द्वारा संचालित</string>
+    <string name="aboutDescriptionWithoutPubName">इस एप्लिकेशन APP_VERSION &lt;a href=\"APPSGEYSER_URL\">AppsGeyser.com&lt;/a> द्वारा संचालित है</string>
+    <string name="aboutFlagText">&lt;b>&lt;a href=http://www.appsgeyser.com/report/?app=APP_ID>इस एप्लिकेशन को भूलना नहीं&lt;/a>&lt;/b>: अगर इस एप्लिकेशन में आपत्तिजनक सामग्री है, तो हमें बताएं.</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <com.Newawe.ui.views.TransparentPanel android:id="@id/banner_panel" android:paddingLeft="3px" android:paddingTop="3px" android:paddingRight="3px" android:paddingBottom="3px" android:visibility="2" android:layout_width="326dp" android:layout_height="56dp" android:layout_marginTop="1px">
+        <FrameLayout android:gravity="33" android:orientation="0" android:id="@id/ad_container" android:background="@drawable/contents_background" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.0">
+            <com.Newawe.ui.views.BrowserWebView android:id="@id/banner_webkit" android:layout_width="-1" android:layout_height="-1" />
+        </FrameLayout>
+    </com.Newawe.ui.views.TransparentPanel>
+</merge>

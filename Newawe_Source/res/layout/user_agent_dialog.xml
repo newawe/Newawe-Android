@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="1" android:orientation="1" android:paddingLeft="10dp" android:paddingTop="2dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-1">
+    <RadioGroup android:layout_width="-2" android:layout_height="-2">
+        <RadioButton android:id="@id/defaultUserAgent" android:layout_width="-2" android:layout_height="-2" android:checked="true" android:text="@string/defaultUserAgent" />
+        <RadioButton android:id="@id/desktoptUserAgent" android:layout_width="-2" android:layout_height="-2" android:text="@string/desktopUserAgent" />
+    </RadioGroup>
+    <Button android:id="@id/okButton" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="@string/setNewUserAgent" />
+</LinearLayout>

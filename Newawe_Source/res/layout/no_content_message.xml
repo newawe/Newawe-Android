@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.0">
+    <TextView android:textSize="22sp" android:textColor="@color/noContentText" android:ellipsize="4" android:gravity="11" android:layout_width="-1" android:layout_height="-1" android:text="@string/noContentInfoMessage" android:maxLines="2" android:editable="false" android:layout_weight="1.0" />
+</LinearLayout>

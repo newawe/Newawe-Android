@@ -1,0 +1,60 @@
+version: 2.0.1
+apkFileName: Newawe.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '9'
+  targetSdkVersion: '23'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '1462499860'
+  versionName: '0.1'
+compressionType: false
+sharedLibrary: false
+unknownFiles:
+  drawable-hdpi.zip: '8'
+  drawable-xhdpi.zip: '8'
+  drawable-mdpi.zip: '8'
+  drawable-ldpi.zip: '8'
+  drawable-xxhdpi.zip: '8'
+  drawable.zip: '8'
+  resources.zip: '8'
+  org/nexage/sourcekit/vast/activity/assets/exit.png: '8'
+  org/nexage/sourcekit/vast/activity/assets/info.png: '8'
+  org/nexage/sourcekit/vast/activity/assets/pause.png: '8'
+  org/nexage/sourcekit/vast/activity/assets/play.png: '8'
+  org/nexage/sourcekit/vast/processor/assets/vast_2_0_1_schema.xsd: '8'
+  org/apache/http/version.properties: '8'
+  org/apache/http/client/version.properties: '8'
+  mf/javax/xml/license.txt: '8'
+  mf/org/apache/xerces/dom/org.apache.xerces.dom.DOMImplementationSourceImpl: '8'
+  mf/org/apache/xerces/dom/org.w3c.dom.DOMImplementationSourceList: '8'
+  mf/org/apache/xerces/impl/msg/DatatypeMessages.properties: '8'
+  mf/org/apache/xerces/impl/msg/DOMMessages.properties: '8'
+  mf/org/apache/xerces/impl/msg/JAXPValidationMessages.properties: '8'
+  mf/org/apache/xerces/impl/msg/SAXMessages.properties: '8'
+  mf/org/apache/xerces/impl/msg/XIncludeMessages.properties: '8'
+  mf/org/apache/xerces/impl/msg/XMLMessages.properties: '8'
+  mf/org/apache/xerces/impl/msg/XMLSchemaMessages.properties: '8'
+  mf/org/apache/xerces/impl/msg/XMLSerializerMessages.properties: '8'
+  mf/org/apache/xerces/impl/msg/XPointerMessages.properties: '8'
+  mf/org/apache/xerces/impl/xpath/regex/message.properties: '8'
+  mf/org/apache/xerces/impl/xpath/regex/message_fr.properties: '8'
+  mf/org/apache/xerces/impl/xpath/regex/message_ja.properties: '8'
+  mf/org/apache/xerces/jaxp/javax.xml.parsers.DocumentBuilderFactory: '8'
+  mf/org/apache/xerces/jaxp/javax.xml.parsers.SAXParserFactory: '8'
+  mf/org/apache/xerces/jaxp/datatype/javax.xml.datatype.DatatypeFactory: '8'
+  mf/org/apache/xerces/jaxp/validation/javax.xml.validation.SchemaFactory: '8'
+  mf/org/apache/xerces/parsers/org.apache.xerces.xni.parser.DTDConfiguration: '8'
+  mf/org/apache/xerces/parsers/org.apache.xerces.xni.parser.XML11Configuration: '8'
+  mf/org/apache/xerces/parsers/org.apache.xerces.xni.parser.XMLParserConfiguration: '8'
+  mf/org/apache/xerces/parsers/org.xml.sax.driver: '8'
+  mf/org/apache/xerces/stax/javax.xml.stream.XMLEventFactory: '8'
+  mf/org/apache/xml/resolver/LICENSE.resolver.txt: '8'
+  mf/org/apache/xml/resolver/NOTICE-resolver.txt: '8'
+  mf/org/apache/xml/resolver/Version.src: '8'
+  mf/org/apache/xml/serialize/HTMLEntities.res: '8'
+  mozilla/public-suffix-list.txt: '8'

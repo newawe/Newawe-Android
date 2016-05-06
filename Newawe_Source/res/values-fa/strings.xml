@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_mode_done">تمام</string>
+    <string name="abc_action_bar_home_description">پیمایش به صفحه اصلی</string>
+    <string name="abc_action_bar_up_description">پیمایش به بالا</string>
+    <string name="abc_action_menu_overflow_description">گزینه‌های بیشتر</string>
+    <string name="abc_toolbar_collapse_description">کوچک کردن</string>
+    <string name="abc_action_bar_home_description_format">‏%1$s‏، %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">‏%1$s‏، %2$s‏، %3$s</string>
+    <string name="abc_searchview_description_search">جستجو</string>
+    <string name="abc_search_hint">جستجو…</string>
+    <string name="abc_searchview_description_query">عبارت جستجو</string>
+    <string name="abc_searchview_description_clear">پاک کردن عبارت جستجو</string>
+    <string name="abc_searchview_description_submit">ارسال عبارت جستجو</string>
+    <string name="abc_searchview_description_voice">جستجوی شفاهی</string>
+    <string name="abc_activitychooserview_choose_application">انتخاب برنامه</string>
+    <string name="abc_activity_chooser_view_see_all">مشاهده همه</string>
+    <string name="abc_shareactionprovider_share_with_application">‏اشتراک‌گذاری با %s</string>
+    <string name="abc_shareactionprovider_share_with">اشتراک‌گذاری با</string>
+    <string name="status_bar_notification_info_overflow">۹۹۹+</string>
+    <string name="abc_capital_on">روشن</string>
+    <string name="abc_capital_off">خاموش</string>
+    <string name="common_google_play_services_unknown_issue">‏%1$s در ارتباط با سرویس‌های Google Play با مشکل روبروست. اگر مشکل ادامه داشت، لطفاً برای دریافت کمک با برنامه‌نویس تماس بگیرید.</string>
+    <string name="menuExitTitle">خروج</string>
+    <string name="menuRefreshTitle">تازه کردن</string>
+    <string name="menuAboutTitle">در باره</string>
+    <string name="menuShareTitle">سهم</string>
+    <string name="menuRateTitle">Rate</string>
+    <string name="progressBarMessage">Loading content…</string>
+    <string name="noInternetConnectionMessage">اتصال به اینترنت در دسترس نیست</string>
+    <string name="shareContentSubject">Get this cool Android App</string>
+    <string name="loadingVideo">Loading video</string>
+    <string name="noContentInfoMessage">"Something goes wrong :(
+No content available"</string>
+    <string name="loadingPaneTitle">Loading…</string>
+    <string name="startupScreenTitle">Loading…</string>
+    <string name="pinToHomeScreenButtonTitle">Pin to desktop</string>
+    <string name="setNewUserAgent">Save and Apply</string>
+    <string name="backButtonTitle">Back</string>
+    <string name="forwardButtonTitle">Forward</string>
+    <string name="refreshgButtonTitle">تازه کردن</string>
+    <string name="homeButtonTitle">Home</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="username">Name</string>
+    <string name="password">Password</string>
+</resources>

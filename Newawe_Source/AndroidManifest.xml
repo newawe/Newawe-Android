@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:"http://schemas.android.com/apk/res/android" android:versionCode="1462499860" android:versionName="0.1" android:installLocation="preferExternal" package="com.Newawe" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="23" />
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:resizeable="true" android:xlargeScreens="true" />
+    <application android:label="Newawe" android:icon="@drawable/icon" android:hardwareAccelerated="true">
+        <activity android:theme="@style/AppTheme" android:label="Newawe" android:name=".MainNavigationActivity" android:launchMode="singleTask" android:screenOrientation="sensor" android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/AppTheme" android:label="AppsgeyserBrowser" android:name="com.Newawe.VideoPlayerActivity" android:launchMode="singleTask" android:screenOrientation="sensor" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="Ads" android:name=".ads.vast.VideoAdsLoaderActivity" android:configChanges="orientation" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="org.nexage.sourcekit.vast.activity.VASTActivity" />
+        <activity android:label="App message" android:name=".MessageViewer" android:excludeFromRecents="true" />
+        <activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity android:label="Loading..." android:name=".BrowserActivity" />
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+        <service android:name="com.Newawe.push.PushGCMIntentService" />
+        <receiver android:name="com.google.android.gcm.GCMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="com.Newawe" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="com.Newawe" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".pull.PullServerController" android:process=":remote">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.Newawe.Utils.CampaignReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.inmobi.rendering.InMobiAdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize" android:hardwareAccelerated="true" />
+        <receiver android:name="com.inmobi.commons.core.utilities.uid.ImIdShareBroadCastReceiver" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.inmobi.share.id" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.inmobi.commons.internal.ActivityRecognitionManager" android:enabled="true" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar.Fullscreen" android:name="com.chartboost.sdk.CBImpressionActivity" android:excludeFromRecents="true" android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar.Fullscreen" android:name="com.jirbo.adcolony.AdColonyOverlay" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@*android:style/Theme.Black.NoTitleBar.Fullscreen" android:name="com.jirbo.adcolony.AdColonyFullscreen" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@*android:style/Theme.Black.NoTitleBar.Fullscreen" android:name="com.jirbo.adcolony.AdColonyBrowser" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <receiver android:name=".notification.NotificationCheckerBootReciever">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".notification.NotificationChecker" />
+        <service android:name="com.Newawe.notification.NotificationService" android:exported="false" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <permission android:name="com.Newawe.permission.C2D_MESSAGE" android:protectionLevel="signature|signatureOrSystem" />
+    <uses-permission android:name="com.Newawe.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+</manifest>

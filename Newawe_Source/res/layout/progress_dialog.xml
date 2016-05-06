@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <ProgressBar android:id="@id/progressBar" android:layout_width="-2" android:layout_height="-2" style="?unknown_attr_ref: 101007a" />
+</LinearLayout>

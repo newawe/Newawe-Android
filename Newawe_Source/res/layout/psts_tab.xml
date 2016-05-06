@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:gravity="11" android:id="@id/psts_tab_title" android:layout_width="-1" android:layout_height="-1" android:singleLine="true" />

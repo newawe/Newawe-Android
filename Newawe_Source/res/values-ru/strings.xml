@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_action_bar_home_description">Перейти на главный экран</string>
+    <string name="abc_action_bar_up_description">Перейти вверх</string>
+    <string name="abc_action_menu_overflow_description">Другие параметры</string>
+    <string name="abc_toolbar_collapse_description">Свернуть</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_searchview_description_search">Поиск</string>
+    <string name="abc_search_hint">Поиск</string>
+    <string name="abc_searchview_description_query">Поисковый запрос</string>
+    <string name="abc_searchview_description_clear">Удалить запрос</string>
+    <string name="abc_searchview_description_submit">Отправить запрос</string>
+    <string name="abc_searchview_description_voice">Голосовой поиск</string>
+    <string name="abc_activitychooserview_choose_application">Выбрать приложение</string>
+    <string name="abc_activity_chooser_view_see_all">Показать все</string>
+    <string name="abc_shareactionprovider_share_with_application">Открыть доступ пользователю %s</string>
+    <string name="abc_shareactionprovider_share_with">Открыть доступ</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="abc_capital_on">ВКЛ.</string>
+    <string name="abc_capital_off">ОТКЛ.</string>
+    <string name="common_google_play_services_unknown_issue">Приложению \"%1$s\" не удается подключиться к сервисам Google Play. Если проблема не исчезнет, обратитесь к разработчику.</string>
+    <string name="menuExitTitle">Выход</string>
+    <string name="menuRefreshTitle">Обновить</string>
+    <string name="menuAboutTitle">Инфо</string>
+    <string name="menuShareTitle">Поделиться</string>
+    <string name="menuRateTitle">Оценить</string>
+    <string name="progressBarMessage">Загрузка контента…</string>
+    <string name="noInternetConnectionMessage">Интернет-соединение недоступно</string>
+    <string name="shareContentSubject">Скачай это классное Android-приложение!</string>
+    <string name="shareSiteSubject">Посетить сайт</string>
+    <string name="loadingVideo">Загрузка видео</string>
+    <string name="noContentInfoMessage">"Ошибка :(
+Контент недоступен"</string>
+    <string name="loadingPaneTitle">Загрузка…</string>
+    <string name="startupScreenTitle">Загрузка…</string>
+    <string name="pinToHomeScreenButtonTitle">Закрепить на рабочем столе</string>
+    <string name="setNewUserAgent">Сохранить и применить</string>
+    <string name="urlBoxHint">Введите запрос или URL</string>
+    <string name="backButtonTitle">Назад</string>
+    <string name="forwardButtonTitle">Вперёд</string>
+    <string name="refreshgButtonTitle">Обновить</string>
+    <string name="homeButtonTitle">Домой</string>
+    <string name="appExitCaption">Вы действительно хотите выйти из приложения?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="build">Сборка</string>
+    <string name="sign_in_to">Войти в …</string>
+    <string name="username">Имя</string>
+    <string name="password">Пароль</string>
+    <string name="requestDesktopVersion">Версия для ПК</string>
+    <string name="AddToStartPage">Добавить на стартовую страницу</string>
+    <string name="new_start_page_item_added">Новый элемент добавлен</string>
+    <string name="dialog_select_action">Выберите действие</string>
+    <string name="open_file">Открыть файл</string>
+    <string name="save_file">Сохранить файл</string>
+    <string name="cancel">Отмена</string>
+    <string name="startupConfirmationDialogMessage">Реклама может быть показана в верхней либо нижней части экрана. Полноэкранная реклама может быть показана при старте приложения, выходе из приложения, либо после каких-либо действий пользователя. При клике по рекламному объявлению вы будете перенаправлены на стороннюю веб-страницу.</string>
+    <string name="startupConfirmationDialogTitle">Правила размещения рекламы</string>
+    <string name="startupConfirmationDialogAcceptButtonCaption">Принять</string>
+    <string name="startupConfirmationDialogRefuseButtonCaption">Отказаться</string>
+    <string name="aboutDescriptionWithPubName">Приложение APP_VERSION от PUB_NAME &lt;br /> создано с &lt;a href=\"APPSGEYSER_URL\">AppsGeyser.com&lt;/a></string>
+    <string name="aboutDescriptionWithoutPubName">Приложение APP_VERSION создано с &lt;a href=\"APPSGEYSER_URL\">AppsGeyser.com&lt;/a></string>
+    <string name="aboutFlagText">&lt;b>&lt;a href=http://www.appsgeyser.com/report/?app=APP_ID>Сообщить о нарушении&lt;/a>&lt;/b>: Сообщите нам, если приложение содержит недопустимый материал.</string>
+</resources>

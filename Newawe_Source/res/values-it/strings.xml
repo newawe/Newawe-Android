@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_mode_done">Fine</string>
+    <string name="abc_action_bar_home_description">Vai alla home page</string>
+    <string name="abc_action_bar_up_description">Vai in alto</string>
+    <string name="abc_action_menu_overflow_description">Altre opzioni</string>
+    <string name="abc_toolbar_collapse_description">Comprimi</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_searchview_description_search">Cerca</string>
+    <string name="abc_search_hint">Cerca…</string>
+    <string name="abc_searchview_description_query">Query di ricerca</string>
+    <string name="abc_searchview_description_clear">Cancella query</string>
+    <string name="abc_searchview_description_submit">Invia query</string>
+    <string name="abc_searchview_description_voice">Ricerca vocale</string>
+    <string name="abc_activitychooserview_choose_application">"Scegli un'applicazione"</string>
+    <string name="abc_activity_chooser_view_see_all">Visualizza tutte</string>
+    <string name="abc_shareactionprovider_share_with_application">Condividi con %s</string>
+    <string name="abc_shareactionprovider_share_with">Condividi con</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="common_google_play_services_unknown_issue">%1$s sta riscontrando problemi con Google Play Services. Se il problema persiste, contatta lo sviluppatore per ricevere assistenza.</string>
+    <string name="menuExitTitle">uscire</string>
+    <string name="menuRefreshTitle">Refresh</string>
+    <string name="menuAboutTitle">circa</string>
+    <string name="menuShareTitle">Condividi</string>
+    <string name="menuRateTitle">Rate</string>
+    <string name="progressBarMessage">Loading content…</string>
+    <string name="noInternetConnectionMessage">Connessione a Internet non è disponibile</string>
+    <string name="shareContentSubject">Get this cool Android App</string>
+    <string name="loadingVideo">Loading video</string>
+    <string name="noContentInfoMessage">"Something goes wrong :(
+No content available"</string>
+    <string name="loadingPaneTitle">Loading…</string>
+    <string name="startupScreenTitle">Loading…</string>
+    <string name="pinToHomeScreenButtonTitle">Pin to desktop</string>
+    <string name="setNewUserAgent">Save and Apply</string>
+    <string name="backButtonTitle">Back</string>
+    <string name="forwardButtonTitle">Forward</string>
+    <string name="refreshgButtonTitle">Refresh</string>
+    <string name="homeButtonTitle">Home</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="username">Name</string>
+    <string name="password">Password</string>
+</resources>

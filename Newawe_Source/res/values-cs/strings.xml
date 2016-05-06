@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_mode_done">Hotovo</string>
+    <string name="abc_action_bar_home_description">Přejít na plochu</string>
+    <string name="abc_action_bar_up_description">Přejít nahoru</string>
+    <string name="abc_action_menu_overflow_description">Více možností</string>
+    <string name="abc_toolbar_collapse_description">Sbalit</string>
+    <string name="abc_action_bar_home_description_format">%1$s – %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s – %3$s</string>
+    <string name="abc_searchview_description_search">Hledat</string>
+    <string name="abc_search_hint">Vyhledat…</string>
+    <string name="abc_searchview_description_query">Vyhledávací dotaz</string>
+    <string name="abc_searchview_description_clear">Smazat dotaz</string>
+    <string name="abc_searchview_description_submit">Odeslat dotaz</string>
+    <string name="abc_searchview_description_voice">Hlasové vyhledávání</string>
+    <string name="abc_activitychooserview_choose_application">Vybrat aplikaci</string>
+    <string name="abc_activity_chooser_view_see_all">Zobrazit vše</string>
+    <string name="abc_shareactionprovider_share_with_application">Sdílet pomocí %s</string>
+    <string name="abc_shareactionprovider_share_with">Sdílet pomocí</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="abc_capital_on">ZAPNUTO</string>
+    <string name="abc_capital_off">VYPNUTO</string>
+    <string name="common_google_play_services_unknown_issue">Aplikace %1$s má potíže se službami Google Play. Pokud problém přetrvává, obraťte se na vývojáře s žádostí o pomoc.</string>
+    <string name="menuExitTitle">výstup</string>
+    <string name="menuRefreshTitle">osvěžit</string>
+    <string name="menuAboutTitle">About</string>
+    <string name="menuShareTitle">podíl</string>
+    <string name="menuRateTitle">Rate</string>
+    <string name="progressBarMessage">Loading content…</string>
+    <string name="noInternetConnectionMessage">Internetové připojení není k dispozici</string>
+    <string name="shareContentSubject">Get this cool Android App</string>
+    <string name="loadingVideo">Loading video</string>
+    <string name="noContentInfoMessage">"Something goes wrong :(
+No content available"</string>
+    <string name="loadingPaneTitle">Loading…</string>
+    <string name="startupScreenTitle">Loading…</string>
+    <string name="pinToHomeScreenButtonTitle">Pin to desktop</string>
+    <string name="setNewUserAgent">Save and Apply</string>
+    <string name="backButtonTitle">Back</string>
+    <string name="forwardButtonTitle">Forward</string>
+    <string name="refreshgButtonTitle">osvěžit</string>
+    <string name="homeButtonTitle">Home</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="username">Name</string>
+    <string name="password">Password</string>
+</resources>

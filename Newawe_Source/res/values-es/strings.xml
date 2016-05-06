@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_mode_done">Listo</string>
+    <string name="abc_action_bar_home_description">Ir a la pantalla de inicio</string>
+    <string name="abc_action_bar_up_description">Desplazarse hacia arriba</string>
+    <string name="abc_action_menu_overflow_description">Más opciones</string>
+    <string name="abc_toolbar_collapse_description">Contraer</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_searchview_description_search">Buscar</string>
+    <string name="abc_search_hint">Buscar…</string>
+    <string name="abc_searchview_description_query">Consulta</string>
+    <string name="abc_searchview_description_clear">Borrar consulta</string>
+    <string name="abc_searchview_description_submit">Enviar consulta</string>
+    <string name="abc_searchview_description_voice">Búsqueda por voz</string>
+    <string name="abc_activitychooserview_choose_application">Seleccionar una aplicación</string>
+    <string name="abc_activity_chooser_view_see_all">Ver todo</string>
+    <string name="abc_shareactionprovider_share_with_application">Compartir con %s</string>
+    <string name="abc_shareactionprovider_share_with">Compartir con</string>
+    <string name="status_bar_notification_info_overflow">+999</string>
+    <string name="abc_capital_on">SÍ</string>
+    <string name="abc_capital_off">NO</string>
+    <string name="common_google_play_services_unknown_issue">%1$s tiene problemas con los servicios de Google Play. Si el problema persiste, ponte en contacto con el desarrollador para obtener ayuda.</string>
+    <string name="menuExitTitle">Salida</string>
+    <string name="menuRefreshTitle">Actualizar</string>
+    <string name="menuAboutTitle">Acerca de</string>
+    <string name="menuShareTitle">Cuota</string>
+    <string name="menuRateTitle">Estimar</string>
+    <string name="progressBarMessage">Cargando contenido…</string>
+    <string name="noInternetConnectionMessage">Conexión a Internet no está disponible</string>
+    <string name="shareContentSubject">Consiga este impresionante Android app!</string>
+    <string name="shareSiteSubject">Disfrute de este sitio</string>
+    <string name="loadingVideo">Cargando vídeo</string>
+    <string name="noContentInfoMessage">Algo va mal :( No hay contenido disponible</string>
+    <string name="loadingPaneTitle">Loading…</string>
+    <string name="startupScreenTitle">Loading…</string>
+    <string name="pinToHomeScreenButtonTitle">Pin de escritorio</string>
+    <string name="setNewUserAgent">Guardar y Aplicar</string>
+    <string name="urlBoxHint">Buscar o escribe el URL</string>
+    <string name="backButtonTitle">Espalda</string>
+    <string name="forwardButtonTitle">Adelante</string>
+    <string name="refreshgButtonTitle">Actualizar</string>
+    <string name="homeButtonTitle">Casa</string>
+    <string name="appExitCaption">¿Realmente desea salir de la aplicación?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="build">Construir</string>
+    <string name="sign_in_to">Entra para …</string>
+    <string name="username">Nombre</string>
+    <string name="password">Contraseña</string>
+    <string name="requestDesktopVersion">Página Solicitud de escritorio</string>
+    <string name="AddToStartPage">Agregue esto a la página de inicio</string>
+    <string name="new_start_page_item_added">Nuevo elemento de la página de inicio añadió</string>
+    <string name="dialog_select_action">Seleccione una acción</string>
+    <string name="open_file">Abrir el archivo</string>
+    <string name="save_file">Guardar archivo</string>
+    <string name="cancel">Cancelar</string>
+    <string name="startupConfirmationDialogMessage">La publicidad puede ser mostrada en la parte superior o inferior de la pantalla. La publicidad de pantalla completa se puede mostrar cuando se inicie la aplicación, la aplicación se cierra, o después de la intervención del usuario. Al hacer clic en el anuncio con el que va a ser redirigido a una página web de terceros.</string>
+    <string name="startupConfirmationDialogTitle">Condiciones de la publicidad</string>
+    <string name="startupConfirmationDialogAcceptButtonCaption">Aceptar</string>
+    <string name="startupConfirmationDialogRefuseButtonCaption">Rechazar</string>
+    <string name="aboutDescriptionWithPubName">Apéndice APP_VERSION de PUB_NAME &lt;br /> creado &lt;a href=\"APPSGEYSER_URL\">AppsGeyser.com&lt;/a></string>
+    <string name="aboutDescriptionWithoutPubName">Aplicación APP_VERSION creada con &lt;a href=\"APPSGEYSER_URL\">AppsGeyser.com&lt;/a></string>
+    <string name="aboutFlagText">&lt;b>&lt;a href=http://www.appsgeyser.com/report/?app=APP_ID>Reportar el abuso&lt;/a>&lt;/b>: Haganos saber, si la solicitud contiene un material válido.</string>
+</resources>

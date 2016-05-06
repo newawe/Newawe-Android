@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="11" android:layout_width="41dp" android:layout_height="38dp">
+    <ImageButton android:id="@id/imageButton" android:background="@drawable/button_style" android:paddingLeft="8dp" android:paddingTop="3dp" android:paddingRight="3dp" android:paddingBottom="3dp" android:layout_width="-2" android:layout_height="38dp" android:src="@drawable/star" android:scaleType="3" android:layout_alignParentRight="false" android:layout_alignParentBottom="false" />
+    <TextView android:enabled="true" android:textStyle="1" android:gravity="11" android:id="@id/badge" android:background="@drawable/button_badge_style" android:paddingLeft="4dp" android:paddingRight="4dp" android:visibility="2" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:text="" android:singleLine="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

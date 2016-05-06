@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="0x106000b" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="16dp" android:textColor="#4ff" android:id="@id/urlItem" android:layout_width="-1" android:layout_height="-2" />
+    <TextView android:textSize="16dp" android:textColor="#000" android:id="@id/titleItem" android:layout_width="-1" android:layout_height="-2" />
+</LinearLayout>

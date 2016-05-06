@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:icon="@drawable/ic_arrow_back_black_24dp" android:id="@id/webapp_back" android:visible="false" android:title="@string/backButtonTitle" />
+    <item android:icon="@drawable/ic_arrow_forward_black_24dp" android:id="@id/webapp_forward" android:visible="false" android:title="@string/forwardButtonTitle" />
+    <item android:icon="@drawable/ic_desktop_mac_black_24dp" android:id="@id/webapp_request_desktop" android:checked="false" android:visible="false" android:title="@string/requestDesktopVersion" android:checkable="true" />
+    <item android:icon="@drawable/ic_offline_pin_black_24dp" android:id="@id/webapp_pin_to_desktop" android:visible="false" android:title="@string/pinToHomeScreenButtonTitle" />
+    <item android:icon="@drawable/ic_offline_pin_black_24dp" android:id="@id/webapp_add_to_home" android:visible="false" android:title="@string/AddToStartPage" />
+    <item android:icon="@drawable/ic_home_black_24dp" android:id="@id/webapp_home" android:visible="false" android:title="@string/homeButtonTitle" />
+    <item android:icon="@drawable/ic_menu_refresh" android:id="@id/webapp_refresh" android:title="@string/menuRefreshTitle" />
+    <item android:icon="0x1080052" android:id="@id/webapp_share" android:title="@string/menuShareTitle" />
+    <item android:icon="0x1080041" android:id="@id/webapp_about" android:title="@string/menuAboutTitle" />
+    <item android:icon="@drawable/ic_menu_favorite" android:id="@id/webapp_rate" android:title="@string/menuRateTitle" />
+    <item android:icon="0x1080038" android:id="@id/webapp_exit" android:title="@string/menuExitTitle" />
+</menu>
